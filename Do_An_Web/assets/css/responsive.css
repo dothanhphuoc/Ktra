@@ -1,0 +1,95 @@
+@media (max-width: 1058px) {
+    header {
+        padding: 18px 60px;
+    }
+
+    section {
+        padding: 50px 60px;
+    }
+
+    .home-text h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        padding: 18px 4%;
+    }
+
+    
+
+    section {
+        padding: 50px 4%;
+    }
+
+    .home-text h1 {
+        font-size: 2.4rem;
+    }
+
+    .trending-box--item {
+        min-width: 49%;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 12px 4%;
+    }
+
+    .navbar > li::after {
+        width: 0;
+        height: 0;
+        
+    }
+
+    .subnavbar {
+        top: 0;
+    }
+
+    #menu-icon {
+        display: initial;
+    }
+    header .navbar {
+        position: absolute;
+        width: 240px;
+        height: 100vh;
+        top: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--bg-color);
+        row-gap: 1.4rem;
+        padding: 20px;
+        box-shadow: 4px 4px 0 4px rgb(14 55 52 / 15%);
+        transition: 0.2s linear;
+        text-align: left;
+        right: -100%;
+    }
+
+    .navbar.active {
+        right: 0;
+    }
+
+    .home-text h1 {
+        font-size: 2rem;
+    }
+
+    
+}
+
+
+@media (max-width: 360){
+    .home-text h1 {
+        font-size: 1.7rem;
+    }
+
+    .home-text span {
+        font-size: 0.8rem;
+    }
+
+    .cart img {
+        width: 75px;
+        height: 75px;
+    }
+}
